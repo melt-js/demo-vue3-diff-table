@@ -1,0 +1,1 @@
+import{I as u,w as m,b as f,D as c}from"./index-2nsMgD4X.js";function p(o,r,i=!0){let e=0,a=!1;async function t(){const s=++e;await c(),await new Promise(n=>requestAnimationFrame(()=>n())),await new Promise(n=>requestAnimationFrame(()=>n())),!a&&s===e&&r()}return i&&u(t),m(o,t,{flush:"post"}),f(()=>{a=!0,e++}),t}export{p as u};
